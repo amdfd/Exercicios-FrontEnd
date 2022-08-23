@@ -1,0 +1,118 @@
+@import "./index.css";
+@import "./contato.css";
+
+:root {
+  --bg-color: #F3EBE7;
+  --p01: #EE9C81;
+  --p02: #EFC1A9;
+  --s01: #3E503C;
+  --s02: #949C81;
+  --light: #eee;
+  --dark: #202020;
+
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+}
+
+h1, h2, h3 {
+  color: var(--s01);
+}
+
+p {
+  color: var(--dark);
+  font-size: 1rem;
+}
+
+.center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--p01);
+  font-weight: 600;
+}
+
+a:hover {
+  color: var(--p02);
+}
+
+.fa-solid fa-house-chimney {
+  color: var(--s01);
+}
+
+.max-container {
+  max-width: 62rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  font-size: 1.5rem;
+  padding-top: 60px;
+  align-items: flex-start;
+}
+
+.menu li {
+  display: inline;
+  padding: 10px;
+  align-items: flex-start;
+}
+
+.pd {
+  padding: 30px;
+}
+
+.tm-social {
+  width: 40px;
+  height: 40px;
+}
+
+.mb {
+  margin-bottom: 50px;
+}
+
+footer p {
+  padding-bottom: 30px;
+}
+
+.ml {
+  margin-left: 40px;
+}
+
+.btn {
+  padding: 5px 10px;
+  background-color: var(--s02);
+  color: var(--light);
+  border-color: transparent;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+input, textarea {
+  border-radius: 4px;
+  box-shadow: var(--shadow);
+}
+
+.portrait {
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+}
+
+.portrait:hover {
+  filter: grayscale(0%);
+}
+
