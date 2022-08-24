@@ -100,10 +100,12 @@ footer p {
   border-color: transparent;
   border-radius: 4px;
   font-weight: 600;
+  margin-top: 20px;
 }
 
 input, textarea {
   border-radius: 4px;
+  width: 100%;
   box-shadow: var(--shadow);
 }
 
@@ -114,5 +116,13 @@ input, textarea {
 
 .portrait:hover {
   filter: grayscale(0%);
+}
+
+.mapa {
+  align-self: flex-start;
+}
+
+.mapa p {
+  padding-bottom: 20px;
 }
 
