@@ -52,7 +52,7 @@ function enviar() {
 }
 
 function mapaBorda() {
-  mapa.style.outline = 'red solid 2px'
+  mapa.style.outline = '#949C81 solid 2px'
 }
 
 function mapaNormal() {
